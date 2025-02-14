@@ -1,0 +1,17 @@
+{
+    "name": "n3rdy/php_boilerplate",
+    "autoload": {
+        "psr-4": {
+            "N3rdy\\PhpBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iago F.",
+            "email": "n3rdydzn@hotmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4"
+    }
+}
