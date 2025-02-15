@@ -8,6 +8,7 @@ class secret{
     private $db_pass = '';
 
 
+    private $assas_api_url = 'https://api-sandbox.asaas.com/v3';
     private $assas_apiKey = '';
     private $assas_addressWallet = '';
     
@@ -25,6 +26,7 @@ class secret{
 
     public function getAssasSecretInformation(){
         return array(
+            'api_url' => $this->assas_api_url,
             'api_key' => $this->assas_apiKey,
             'address_wallet' => $this->assas_addressWallet
         );
